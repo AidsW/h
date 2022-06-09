@@ -4,7 +4,7 @@ local TS = game:GetService("TweenService")
 local RS = game:GetService("RunService")
 local UIS = game:GetService("UserInputService")
 local Keys = loadstring(game:HttpGet("https://raw.githubusercontent.com/joeengo/roblox/main/AlphanumericKeys.lua"))()
-local rainbowvalue = 0.01
+local rainbowvalue = 1
 
 -- Themes
 EngoThemes = {
@@ -63,7 +63,7 @@ EngoThemes = {
         Darkness = Color3.fromRGB(0, 0, 0),
     },
 }
-local theme = EngoThemes.Engo
+local theme = EngoThemes.Crimson
 
 -- Functions
 local old_err = error
