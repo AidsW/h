@@ -63,7 +63,7 @@ EngoThemes = {
         Darkness = Color3.fromRGB(0, 0, 0),
     },
 }
-local theme = EngoThemes.Crimson
+local theme = EngoThemes.Sky
 
 -- Functions
 local old_err = error
